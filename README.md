@@ -1,1 +1,1 @@
-# Proyecto React Native, demo de mi portafolio LEONEL MAZZAN
+# Proyecto React Native, demo de mi portafolio [Leonel mazzan](https://leonelmazzan.com/)
