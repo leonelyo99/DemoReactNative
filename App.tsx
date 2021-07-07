@@ -1,15 +1,14 @@
 import React from 'react';
-import {SafeAreaView, StatusBar} from 'react-native';
-import {CalculadoraScreen} from './src/screens/CalculadoraScreen';
-import {styles} from './src/theme/appTheme';
+import { NavigationContainer } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
+import {Navigator} from './src/navigator/Navigator';
+import { Tabs } from './src/navigator/Tabs';
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.fondo}>
-      {/* StatusBar es la barra de navegacion (hora, bateria, wifi)  */}
-      <StatusBar barStyle='light-content' backgroundColor={'black'} />
-      <CalculadoraScreen />
-    </SafeAreaView>
+    <NavigationContainer>
+      <Tabs />
+    </NavigationContainer>
   );
 };
 
